@@ -4,6 +4,10 @@
         "module": "CommonJS",
         "moduleResolution": "Node",
         "esModuleInterop": true,
-        "strict": true
+        "strict": true,
+        "rootDir": ".",
+        "skipLibCheck": true,
+        "types": ["node"]
+        ,"ignoreDeprecations": "6.0"
     }
 }
