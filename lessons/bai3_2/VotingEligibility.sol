@@ -9,8 +9,8 @@ contract VotingEligibility {
         owner = msg.sender;
     }
 
-    function checkEligibility(uint age) public pure returns (bool) {
-        if (age >= 18) {
+    function checkEligibility(uint age) public view returns (bool) {
+        if (age >= minAge) {
             return true;
         } else {
             return false;
