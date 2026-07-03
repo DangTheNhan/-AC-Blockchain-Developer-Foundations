@@ -22,9 +22,9 @@
 
 Chạy:
 ```bash
-npx hardhat run test # chạy unit test trước khi deploy 
+npx hardhat run test # chạy unit test trước khi deploy npx hardhat test 
 npx hardhat deploy --network sepolia --tags deploy # deploy lên sepolia network
-npx hardhat run scripts/test.ts
+npx hardhat run scripts/test.ts # npx hardhat run scripts/test.ts --network sepolia
 ```
 
 Kết quả:
